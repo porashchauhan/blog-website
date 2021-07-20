@@ -1,0 +1,17 @@
+<%- include("partials/header") %> 
+
+<h1><%= Individualtitle %></h1>
+
+<p> <%= Individualpost %>  </p>
+
+<form class="" action="/delete" method="post">
+
+    <button type="submit" class="btn btn-primary" name="button" value="<%= postid%>">delete post</button>
+
+   
+
+  </form>
+
+
+
+<%- include("partials/footer") %> 
